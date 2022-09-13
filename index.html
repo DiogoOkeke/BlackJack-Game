@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>BlackJack Game</title>
-  
-  <!-- HTML -->
-  
+    <title>BlackJack Game</title>
 
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css">
-</head>
+    <!-- HTML -->
 
-<body>
-  
-  <div class="main-container">
-    
-    <div class="sub-container">
-    <h3>BlackJack</h3>
-    <p>Want to play a round?</p>
-    <p>Cards:</p>
-    <p>Sum:</p>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="main-container">
+      <div class="sub-container">
+        <h3>BlackJack</h3>
+        <p id="message-el">Want to play a round?</p>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+      </div>
+
+      <div class="button-container">
+        <button onclick="startGame()">Start Game</button>
+        <button onclick="newCard()">New Card</button>
+      </div>
+
+      <p class="last-pTag" id="player-el">
+        <span class="per" id="per">Per: </span> $200
+      </p>
     </div>
-    
-    <div class="button-container">
-     <button>Start Game</button>
-     <button>New Card</button>
-    </div>
-   
-   <p class="last-pTag"> <span class="per">Per:</span> $200</p>
-   
-  </div>
-  <!-- Project -->
-  <script src="main.js"></script>
-</body>
+    <!-- Project -->
+    <script src="main.js"></script>
+  </body>
 </html>
