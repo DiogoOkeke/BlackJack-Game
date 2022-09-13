@@ -119,16 +119,17 @@ body, html{
  }
  
  .sub-container{
-  margin-top: 15%;
+  margin-top: 5%;
  }
  
  .sub-container h3{
   font-size: 4rem;
   margin-bottom: 0;
+  margin-top: 20px;
  }
  
  .sub-container p:nth-child(2){
-  margin-block: 40px;
+  margin-block: 10px;
   margin-bottom: 50px;
  }
  
@@ -143,7 +144,7 @@ body, html{
  }
  
  .button-container{
-  margin-top: 9%;
+  margin-top: 20px;
  }
  
  .button-container button{
@@ -157,8 +158,8 @@ body, html{
  }
  
  .last-pTag{
-  margin-block: 0;
-  margin-block: 9%;
+  margin-block: 20px;
+  /* margin-block: 4%; */
  }
  
 }
